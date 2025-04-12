@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded',function() {
 		function getFormvalue() {
 	const fname=document.querySelector('input[name="fname"]').value;
 		const lname=document.querySelector('input[name="lname"]').value;
-	const form="${fname}  ${lname}";
+	const form=`${fname}  ${lname}`;
 	alert(form);
 		}
 		getFormvalue();
