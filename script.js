@@ -5,7 +5,7 @@ event.preventDefault();
 const fname=document.querySelector(fname).value;
 	const lname=document.querySelector(lname).value;
 const form=`${fname}+"-"+${lname}`;
-alert("<First Name> <Last Name>")
+alert("<First Name> <Last Name>");
 });
 });
 	//function getFormvalue() {
